@@ -1,3 +1,9 @@
+//compilei meu coração  
+//mas o erro era lógico:  
+//esperava de ti  
+//um retorno  
+//que nunca foi declarado  
+
 var step;
 
 // setup for the canvas and colors
@@ -23,10 +29,11 @@ function cross(x, y, width, height) {
   }
 }
 
+
 // decreases the step value when mouse is pressed in the canvas, and redraws
 function mousePressed() {
   if (0 <= mouseX && 0 <= mouseY && mouseX <= width && mouseY <= height) {
-    if (step <= 10) {
+    if (step <= 30) {
       step = 50;
     }
     step -= 2;
@@ -52,4 +59,6 @@ Maze
 A maze made with randomly generated diagonal lines. Although it is quite simple, the result in my opinion is pretty cool. Make the lines smaller and smaller by clicking the mouse on the canvas.
 
 Reset using the R key on your keyboard. Pause the piece at any time using the S key on your keyboard.
+
+, "#ccff00", "#ff0078", "#253a44", "#ffde59"
 */

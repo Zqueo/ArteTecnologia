@@ -18,7 +18,9 @@ function setup() {
   colorMode(RGB);
   //noLoop();
   colors = [[color(188, 216, 193), color(214, 219, 178), color(227, 217, 133), color(229, 122, 68)],
-[color(219, 177, 188), color(211, 196, 227), color(143, 149, 211), color(137, 218, 255)], [color(191, 107, 99), color(217, 163, 132), color(91, 158, 166), color(169, 212, 217)]];
+            [color(219, 177, 188), color(211, 196, 227), color(143, 149, 211), color(137, 218, 255)],
+            [color(191, 107, 99), color(217, 163, 132), color(91, 158, 166), color(169, 212, 217)]
+          ];
 
   resetSketch();
 }
@@ -100,4 +102,5 @@ Bloom
 A hand selected random palette of colors, and some deformed circles! Wait until the circles get really small to see the flower bloom!
 
 Reset using the R key on your keyboard. Pause the piece at any time using the S key on your keyboard.
+[color(204,255,0), color(255, 0, 120), color(37, 58, 68), color(255, 222, 89)]
 */
